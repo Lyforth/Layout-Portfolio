@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>      
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/profile.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+</head>
+<body>
+    <input type="checkbox" id="check">
+    <label for="check">
+        <i class="fas fa-bars" id="btn"></i>
+        <i class="fas fa-times" id="close"></i>
+    </label>
+    <div class="sidebar">        
+        <header>Menu</header>
+        <ul>           
+            <li><a href="#"><i class="fas fa-user"></i>Perfil</a></li>
+            <li><a href="#"><i class="fas fa-laptop"></i>Habilidades</a></li>
+            <li><a href="#"><i class="fas fa-code-branch"></i>Projetos</a></li>            
+            <li><a href="#"><i class="fas fa-code"></i>Experiência</a></li>
+            <li><a href="#"><i class="fas fa-trophy"></i>Certificados</a></li>
+            <li><a href="#"><i class="fas fa-address-card"></i></i>Contato</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="image">
+            <img src="../img/me.jpg">
+        </div>
+        <div class="content">
+            <div class="info">
+                <h2 id="name">Alexandre Fernandes</h2>
+                <span>Web Developer</span>
+            </div>
+        </div>
+        <ul class="social-media">
+            <li><a href="https://web.facebook.com/alexandre.fernandes.940/"><span class="fab fa-facebook-f"></span></a></li>
+            <li><a href="https://www.linkedin.com/in/alexandre-fernandes-159543165/"><span class="fab fa-linkedin"></span></a></li>
+            <li><a href="https://github.com/Lyforth"><span class="fab fa-github"></span></a></li>                
+        </ul>
+    </div>
+</body>
+</html>
