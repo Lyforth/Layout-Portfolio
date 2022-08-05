@@ -40,7 +40,7 @@ body {
     border-bottom: 1px solid #363636;
     transition: .5s;
 }
-ul li:hover a {
+.sidebar ul li:hover a {
     padding-left: 50px;    
 }
 .sidebar ul a i {
